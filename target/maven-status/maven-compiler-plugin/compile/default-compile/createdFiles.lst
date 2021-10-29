@@ -1,0 +1,7 @@
+com\revature\dao\DBConnection.class
+com\revature\dao\ExpenseDAO.class
+com\revature\model\StatusUpdate.class
+com\revature\dao\EmployeeDAO.class
+com\revature\model\Expense.class
+com\revature\model\Employee.class
+com\revature\main\AppMain.class
