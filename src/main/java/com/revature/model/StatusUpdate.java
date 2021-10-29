@@ -22,4 +22,10 @@ public class StatusUpdate {
 		this.ids = ids;
 	}
 
+	@Override
+	public String toString() {
+		return "StatusUpdate [status=" + status + ", ids=" + ids + "]";
+	}
+	
+
 }

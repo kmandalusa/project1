@@ -1,0 +1,500 @@
+2021-10-26 08:09:29 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.0.Final
+2021-10-26 08:09:29 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-26 08:09:29 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-10-26 08:09:29 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://revature.cqxtfzy5t4m5.us-east-1.rds.amazonaws.com:5432/revature]
+2021-10-26 08:09:29 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2021-10-26 08:09:29 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-10-26 08:09:29 INFO  DriverManagerConnectionProviderImpl:274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-10-26 08:09:30 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-10-26 08:09:30 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@33379242] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-10-26 08:09:30 INFO  log:170 - Logging initialized @1738ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-10-26 08:09:30 INFO  Javalin:15 - Static file handler added: StaticFileConfig(hostedPath=/, directory=/public, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///C:/Workspace/project1/target/classes/public/'
+2021-10-26 08:09:30 INFO  Javalin:15 - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2021-10-26 08:09:30 INFO  Javalin:15 - Starting Javalin ...
+2021-10-26 08:09:30 INFO  Javalin:15 - You are running Javalin 4.1.1 (released October 10, 2021).
+2021-10-26 08:09:30 INFO  Javalin:15 - Listening on http://localhost:7777/
+2021-10-26 08:09:30 INFO  Javalin:15 - Javalin started in 128ms \o/
+2021-10-26 08:10:18 INFO  AppMain:41 - User trying to login with userId: A
+2021-10-26 08:10:18 DEBUG AppMain:42 - XX User trying to login with userId: A
+2021-10-26 08:10:40 INFO  AppMain:41 - User trying to login with userId: Aneek
+2021-10-26 08:10:40 DEBUG AppMain:42 - XX User trying to login with userId: Aneek
+2021-10-26 08:10:40 INFO  AppMain:58 - userId: Aneek password: aneek
+2021-10-26 08:11:02 INFO  AppMain:73 - description: Relocation Amount: 2467.87
+2021-10-26 08:11:49 INFO  AppMain:73 - description: Office party - decoration  Amount: 342.58
+2021-10-26 08:12:25 INFO  AppMain:41 - User trying to login with userId: Krishna
+2021-10-26 08:12:25 DEBUG AppMain:42 - XX User trying to login with userId: Krishna
+2021-10-26 08:12:25 INFO  AppMain:58 - userId: Krishna password: krishna
+2021-10-26 08:12:52 INFO  AppMain:73 - description: Office supply - Printer Amount: 453.62
+2021-10-26 08:14:20 INFO  AppMain:41 - User trying to login with userId: Sally
+2021-10-26 08:14:20 DEBUG AppMain:42 - XX User trying to login with userId: Sally
+2021-10-26 08:14:20 INFO  AppMain:58 - userId: Sally password: sally
+2021-10-26 08:14:34 INFO  AppMain:73 - description: Air ticket Amount: 234.56
+2021-10-26 08:14:49 INFO  AppMain:73 - description: Food Amount: 34.23
+2021-10-26 08:15:19 INFO  AppMain:41 - User trying to login with userId: Robert
+2021-10-26 08:15:19 DEBUG AppMain:42 - XX User trying to login with userId: Robert
+2021-10-26 08:15:19 INFO  AppMain:58 - userId: Robert password: robert
+2021-10-26 08:15:35 INFO  AppMain:73 - description: Train ticket Amount: 76.87
+2021-10-26 08:16:31 INFO  AppMain:73 - description: Office supply - Table Amount: 123.54
+2021-10-26 08:16:46 INFO  AppMain:41 - User trying to login with userId: Siva
+2021-10-26 08:16:46 DEBUG AppMain:42 - XX User trying to login with userId: Siva
+2021-10-26 08:16:46 INFO  AppMain:58 - userId: Siva password: siva
+2021-10-26 13:57:59 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.0.Final
+2021-10-26 13:58:00 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-26 13:58:00 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-10-26 13:58:00 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://revature.cqxtfzy5t4m5.us-east-1.rds.amazonaws.com:5432/revature]
+2021-10-26 13:58:00 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2021-10-26 13:58:00 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-10-26 13:58:00 INFO  DriverManagerConnectionProviderImpl:274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-10-26 13:58:00 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-10-26 13:58:01 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@33379242] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-10-26 13:58:01 INFO  log:170 - Logging initialized @1940ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-10-26 13:58:01 INFO  Javalin:15 - Static file handler added: StaticFileConfig(hostedPath=/, directory=/public, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///C:/Workspace/project1/target/classes/public/'
+2021-10-26 13:58:01 INFO  Javalin:15 - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2021-10-26 13:58:01 INFO  Javalin:15 - Starting Javalin ...
+2021-10-26 13:58:01 INFO  Javalin:15 - You are running Javalin 4.1.1 (released October 10, 2021).
+2021-10-26 13:58:01 INFO  Javalin:15 - Listening on http://localhost:7777/
+2021-10-26 13:58:01 INFO  Javalin:15 - Javalin started in 143ms \o/
+2021-10-26 14:00:50 INFO  AppMain:41 - User trying to login with userId: Siva
+2021-10-26 14:00:50 DEBUG AppMain:42 -  User trying to login with userId: Siva
+2021-10-26 14:00:50 INFO  AppMain:48 - User trying to login with password: siva
+2021-10-26 14:00:50 INFO  AppMain:59 - userId: Siva password: siva
+2021-10-26 14:00:50 INFO  AppMain:105 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664]]find by status Denied
+2021-10-26 14:00:50 INFO  AppMain:105 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793]]find by status Approved
+2021-10-26 14:00:50 INFO  AppMain:105 - Expenses [Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Pending, timestamp=2021-10-26 08:12:52.839], Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Pending, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Pending, timestamp=2021-10-26 08:16:31.665]]find by status Pending
+2021-10-26 14:01:07 INFO  AppMain:113 - Statistics sumExpenses [Expense [id=0, employeeId=Aneek, amount=2810.45, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Krishna, amount=474.18, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=268.79, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=200.41000000000003, reason=null, status=null, timestamp=null]]
+2021-10-26 14:01:07 INFO  AppMain:113 - Statistics avgExpenses [Expense [id=0, employeeId=Aneek, amount=1405.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Krishna, amount=237.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=134.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=100.0, reason=null, status=null, timestamp=null]]
+2021-10-26 14:01:07 INFO  AppMain:113 - Statistics maxExpenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Pending, timestamp=2021-10-26 08:12:52.839], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Pending, timestamp=2021-10-26 08:16:31.665], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437]]
+2021-10-26 15:30:48 INFO  AppMain:41 - User trying to login with userId: Siva
+2021-10-26 15:30:48 DEBUG AppMain:42 -  User trying to login with userId: Siva
+2021-10-26 15:30:48 INFO  AppMain:48 - User trying to login with password: siva
+2021-10-26 15:30:48 INFO  AppMain:59 - userId: Siva password: siva
+2021-10-26 15:30:48 INFO  AppMain:105 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664]]find by status Denied
+2021-10-26 15:30:48 INFO  AppMain:105 - Expenses [Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Pending, timestamp=2021-10-26 08:12:52.839], Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Pending, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Pending, timestamp=2021-10-26 08:16:31.665]]find by status Pending
+2021-10-26 15:30:48 INFO  AppMain:105 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793]]find by status Approved
+2021-10-26 15:31:13 INFO  AppMain:84 - Update StatusUpdate [status=Approved, ids=[4]]
+2021-10-26 15:31:13 INFO  AppMain:105 - Expenses [Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Pending, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Pending, timestamp=2021-10-26 08:16:31.665]]find by status Pending
+2021-10-26 15:31:13 INFO  AppMain:105 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664]]find by status Denied
+2021-10-26 15:31:13 INFO  AppMain:105 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839]]find by status Approved
+2021-10-26 15:31:30 INFO  AppMain:113 - Statistics avgExpenses [Expense [id=0, employeeId=Aneek, amount=1405.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Krishna, amount=237.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=134.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=100.0, reason=null, status=null, timestamp=null]]
+2021-10-26 15:31:30 INFO  AppMain:113 - Statistics sumExpenses [Expense [id=0, employeeId=Aneek, amount=2810.45, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Krishna, amount=474.18, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=268.79, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=200.41000000000003, reason=null, status=null, timestamp=null]]
+2021-10-26 15:31:30 INFO  AppMain:113 - Statistics maxExpenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Pending, timestamp=2021-10-26 08:16:31.665], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437]]
+2021-10-26 15:32:03 INFO  AppMain:41 - User trying to login with userId: Krishna
+2021-10-26 15:32:03 DEBUG AppMain:42 -  User trying to login with userId: Krishna
+2021-10-26 15:32:03 INFO  AppMain:48 - User trying to login with password: scvs
+2021-10-26 15:32:03 INFO  AppMain:59 - userId: Krishna password: scvs
+2021-10-26 15:32:58 INFO  AppMain:41 - User trying to login with userId: Krishna
+2021-10-26 15:32:58 DEBUG AppMain:42 -  User trying to login with userId: Krishna
+2021-10-26 15:32:58 INFO  AppMain:48 - User trying to login with password: krishna
+2021-10-26 15:32:58 INFO  AppMain:59 - userId: Krishna password: krishna
+2021-10-26 15:32:58 INFO  AppMain:92 - Expenses [Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839], Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424]]
+2021-10-26 15:33:14 INFO  AppMain:74 - description: Air ticket Amount: 100.0
+2021-10-26 15:33:14 INFO  AppMain:92 - Expenses [Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839], Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424]]
+2021-10-26 15:34:36 INFO  AppMain:41 - User trying to login with userId: Siva
+2021-10-26 15:34:36 DEBUG AppMain:42 -  User trying to login with userId: Siva
+2021-10-26 15:34:36 INFO  AppMain:48 - User trying to login with password: siva
+2021-10-26 15:34:36 INFO  AppMain:59 - userId: Siva password: siva
+2021-10-26 15:34:37 INFO  AppMain:105 - Expenses [Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Pending, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Pending, timestamp=2021-10-26 08:16:31.665], Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322]]find by status Pending
+2021-10-26 15:34:37 INFO  AppMain:105 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839]]find by status Approved
+2021-10-26 15:34:37 INFO  AppMain:105 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664]]find by status Denied
+2021-10-26 15:35:02 INFO  AppMain:84 - Update StatusUpdate [status=Denied, ids=[6, 8]]
+2021-10-26 15:35:03 INFO  AppMain:105 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Denied, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665]]find by status Denied
+2021-10-26 15:35:03 INFO  AppMain:105 - Expenses [Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322]]find by status Pending
+2021-10-26 15:35:03 INFO  AppMain:105 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839]]find by status Approved
+2021-10-26 15:35:32 INFO  AppMain:113 - Statistics sumExpenses [Expense [id=0, employeeId=Aneek, amount=2810.45, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Krishna, amount=574.1800000000001, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=268.79, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=200.41000000000003, reason=null, status=null, timestamp=null]]
+2021-10-26 15:35:32 INFO  AppMain:113 - Statistics avgExpenses [Expense [id=0, employeeId=Aneek, amount=1405.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Krishna, amount=191.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=134.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=100.0, reason=null, status=null, timestamp=null]]
+2021-10-26 15:35:32 INFO  AppMain:113 - Statistics maxExpenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437]]
+2021-10-26 15:39:42 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.0.Final
+2021-10-26 15:39:43 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-26 15:39:43 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-10-26 15:39:43 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://revature.cqxtfzy5t4m5.us-east-1.rds.amazonaws.com:5432/revature]
+2021-10-26 15:39:43 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2021-10-26 15:39:43 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-10-26 15:39:43 INFO  DriverManagerConnectionProviderImpl:274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-10-26 15:39:44 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-10-26 15:39:45 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@60a7e509] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-10-26 15:39:46 INFO  EmployeeDAO:27 - Employee [id=9d692723-d7f3-449d-9a7a-0130b7ffa473, name=Mickya, password=macky, role=Manager]
+2021-10-26 15:39:46 INFO  EmployeeDAOTests:26 - Employee [id=9d692723-d7f3-449d-9a7a-0130b7ffa473, name=Mickya, password=macky, role=Manager]
+2021-10-26 15:39:46 INFO  EmployeeDAOTests:33 - Employee [id=9d692723-d7f3-449d-9a7a-0130b7ffa473, name=Mickya, password=macky, role=Manager]
+2021-10-26 15:49:13 INFO  AppMain:41 - User trying to login with userId: Kersgha
+2021-10-26 15:49:13 DEBUG AppMain:42 -  User trying to login with userId: Kersgha
+2021-10-26 15:49:28 INFO  AppMain:41 - User trying to login with userId: Krishna
+2021-10-26 15:49:28 DEBUG AppMain:42 -  User trying to login with userId: Krishna
+2021-10-26 15:49:28 INFO  AppMain:48 - User trying to login with password: krishna
+2021-10-26 15:49:28 INFO  AppMain:59 - userId: Krishna password: krishna
+2021-10-26 15:49:28 INFO  AppMain:92 - Expenses [Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839], Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424]]
+2021-10-26 15:49:48 INFO  AppMain:74 - description: Relocation Amount: 3421.34
+2021-10-26 15:49:48 INFO  AppMain:92 - Expenses [Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Pending, timestamp=2021-10-26 15:49:48.456], Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839], Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424]]
+2021-10-26 15:50:10 INFO  AppMain:41 - User trying to login with userId: Siva
+2021-10-26 15:50:10 DEBUG AppMain:42 -  User trying to login with userId: Siva
+2021-10-26 15:50:10 INFO  AppMain:48 - User trying to login with password: siva
+2021-10-26 15:50:10 INFO  AppMain:59 - userId: Siva password: siva
+2021-10-26 15:50:10 INFO  AppMain:105 - Expenses [Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Pending, timestamp=2021-10-26 15:49:48.456]]find by status Pending
+2021-10-26 15:50:10 INFO  AppMain:105 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839]]find by status Approved
+2021-10-26 15:50:10 INFO  AppMain:105 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Denied, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665]]find by status Denied
+2021-10-26 15:50:22 INFO  AppMain:84 - Update StatusUpdate [status=Denied, ids=[10]]
+2021-10-26 15:50:22 INFO  AppMain:105 - Expenses [Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322]]find by status Pending
+2021-10-26 15:50:22 INFO  AppMain:105 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Denied, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456]]find by status Denied
+2021-10-26 15:50:22 INFO  AppMain:105 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839]]find by status Approved
+2021-10-26 15:50:25 INFO  AppMain:113 - Statistics sumExpenses [Expense [id=0, employeeId=Krishna, amount=3995.5200000000004, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Aneek, amount=2810.45, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=268.79, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=200.41000000000003, reason=null, status=null, timestamp=null]]
+2021-10-26 15:50:25 INFO  AppMain:113 - Statistics avgExpenses [Expense [id=0, employeeId=Aneek, amount=1405.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Krishna, amount=999.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=134.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=100.0, reason=null, status=null, timestamp=null]]
+2021-10-26 15:50:25 INFO  AppMain:113 - Statistics maxExpenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437]]
+2021-10-26 16:56:29 INFO  AppMain:41 - User trying to login with userId: Kersgha
+2021-10-26 16:56:29 DEBUG AppMain:42 -  User trying to login with userId: Kersgha
+2021-10-26 16:56:35 INFO  AppMain:41 - User trying to login with userId: Krishna
+2021-10-26 16:56:35 DEBUG AppMain:42 -  User trying to login with userId: Krishna
+2021-10-26 16:56:35 INFO  AppMain:48 - User trying to login with password: krishna
+2021-10-26 16:56:35 INFO  AppMain:59 - userId: Krishna password: krishna
+2021-10-26 16:56:35 INFO  AppMain:92 - Expenses [Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839], Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424]]
+2021-10-26 16:56:40 INFO  AppMain:74 - description: Relocation Amount: 3421.34
+2021-10-26 16:56:40 INFO  AppMain:92 - Expenses [Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Pending, timestamp=2021-10-26 16:56:40.401], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839], Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424]]
+2021-10-26 16:56:46 INFO  AppMain:41 - User trying to login with userId: Siva
+2021-10-26 16:56:46 DEBUG AppMain:42 -  User trying to login with userId: Siva
+2021-10-26 16:56:46 INFO  AppMain:48 - User trying to login with password: siva
+2021-10-26 16:56:46 INFO  AppMain:59 - userId: Siva password: siva
+2021-10-26 16:56:46 INFO  AppMain:105 - Expenses [Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Pending, timestamp=2021-10-26 16:56:40.401]]find by status Pending
+2021-10-26 16:56:46 INFO  AppMain:105 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839]]find by status Approved
+2021-10-26 16:56:46 INFO  AppMain:105 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Denied, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456]]find by status Denied
+2021-10-26 16:57:18 INFO  AppMain:84 - Update StatusUpdate [status=Denied, ids=[11]]
+2021-10-26 16:57:18 INFO  AppMain:105 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Denied, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:56:40.401]]find by status Denied
+2021-10-26 16:57:18 INFO  AppMain:105 - Expenses [Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322]]find by status Pending
+2021-10-26 16:57:18 INFO  AppMain:105 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839]]find by status Approved
+2021-10-26 16:57:19 INFO  AppMain:113 - Statistics sumExpenses [Expense [id=0, employeeId=Krishna, amount=7416.860000000001, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Aneek, amount=2810.45, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=268.79, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=200.41000000000003, reason=null, status=null, timestamp=null]]
+2021-10-26 16:57:19 INFO  AppMain:113 - Statistics avgExpenses [Expense [id=0, employeeId=Krishna, amount=1483.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Aneek, amount=1405.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=134.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=100.0, reason=null, status=null, timestamp=null]]
+2021-10-26 16:57:19 INFO  AppMain:113 - Statistics maxExpenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:56:40.401], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437]]
+2021-10-26 16:58:05 INFO  AppMain:41 - User trying to login with userId: Kersgha
+2021-10-26 16:58:05 DEBUG AppMain:42 -  User trying to login with userId: Kersgha
+2021-10-26 16:58:11 INFO  AppMain:41 - User trying to login with userId: Krishna
+2021-10-26 16:58:11 DEBUG AppMain:42 -  User trying to login with userId: Krishna
+2021-10-26 16:58:11 INFO  AppMain:48 - User trying to login with password: krishna
+2021-10-26 16:58:11 INFO  AppMain:59 - userId: Krishna password: krishna
+2021-10-26 16:58:11 INFO  AppMain:92 - Expenses [Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:56:40.401], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839], Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424]]
+2021-10-26 16:58:16 INFO  AppMain:74 - description: Relocation Amount: 3421.34
+2021-10-26 16:58:16 INFO  AppMain:92 - Expenses [Expense [id=12, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Pending, timestamp=2021-10-26 16:58:16.39], Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:56:40.401], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839], Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424]]
+2021-10-26 16:58:22 INFO  AppMain:41 - User trying to login with userId: Siva
+2021-10-26 16:58:22 DEBUG AppMain:42 -  User trying to login with userId: Siva
+2021-10-26 16:58:22 INFO  AppMain:48 - User trying to login with password: siva
+2021-10-26 16:58:22 INFO  AppMain:59 - userId: Siva password: siva
+2021-10-26 16:58:22 INFO  AppMain:105 - Expenses [Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=12, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Pending, timestamp=2021-10-26 16:58:16.39]]find by status Pending
+2021-10-26 16:58:22 INFO  AppMain:105 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Denied, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:56:40.401]]find by status Denied
+2021-10-26 16:58:22 INFO  AppMain:105 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839]]find by status Approved
+2021-10-26 16:58:54 INFO  AppMain:84 - Update StatusUpdate [status=Denied, ids=[12]]
+2021-10-26 16:58:54 INFO  AppMain:105 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839]]find by status Approved
+2021-10-26 16:58:54 INFO  AppMain:105 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Denied, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:56:40.401], Expense [id=12, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:58:16.39]]find by status Denied
+2021-10-26 16:58:54 INFO  AppMain:105 - Expenses [Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322]]find by status Pending
+2021-10-26 16:58:55 INFO  AppMain:113 - Statistics avgExpenses [Expense [id=0, employeeId=Krishna, amount=1806.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Aneek, amount=1405.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=134.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=100.0, reason=null, status=null, timestamp=null]]
+2021-10-26 16:58:55 INFO  AppMain:113 - Statistics maxExpenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437]]
+2021-10-26 16:58:55 INFO  AppMain:113 - Statistics sumExpenses [Expense [id=0, employeeId=Krishna, amount=10838.2, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Aneek, amount=2810.45, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=268.79, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=200.41000000000003, reason=null, status=null, timestamp=null]]
+2021-10-26 18:42:08 INFO  AppMain:41 - User trying to login with userId: Kersgha
+2021-10-26 18:42:08 DEBUG AppMain:42 -  User trying to login with userId: Kersgha
+2021-10-26 18:42:08 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 08006
+2021-10-26 18:42:08 ERROR SqlExceptionHelper:142 - An I/O error occurred while sending to the backend.
+2021-10-26 18:42:08 INFO  DefaultLoadEventListener:116 - HHH000327: Error performing load command
+org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:112)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:67)
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.getResultSet(AbstractLoadPlanBasedLoader.java:390)
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeQueryStatement(AbstractLoadPlanBasedLoader.java:163)
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeLoad(AbstractLoadPlanBasedLoader.java:104)
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.load(AbstractLoadPlanBasedEntityLoader.java:285)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:4521)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4511)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:571)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:539)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:208)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:327)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:118)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1226)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1215)
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:201)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2830)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2807)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2763)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2807)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:3395)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:3357)
+	at com.revature.dao.EmployeeDAO.findById(EmployeeDAO.java:16)
+	at com.revature.main.AppMain.lambda$2(AppMain.java:43)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:113)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.postgresql.util.PSQLException: An I/O error occurred while sending to the backend.
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:349)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:481)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:401)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57)
+	... 64 more
+Caused by: javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1531)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:975)
+	at org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:161)
+	at org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:128)
+	at org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:113)
+	at org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:73)
+	at org.postgresql.core.PGStream.receiveChar(PGStream.java:443)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2056)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:322)
+	... 69 more
+	Suppressed: java.net.SocketException: Connection reset by peer: socket write error
+		at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:110)
+		at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:83)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:400)
+		... 80 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1318)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:959)
+	... 76 more
+2021-10-26 18:42:08 WARN  Javalin:20 - Uncaught exception
+javax.persistence.PersistenceException: org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at org.hibernate.internal.ExceptionConverterImpl.convert(ExceptionConverterImpl.java:154)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:3430)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:3357)
+	at com.revature.dao.EmployeeDAO.findById(EmployeeDAO.java:16)
+	at com.revature.main.AppMain.lambda$2(AppMain.java:43)
+	at io.javalin.core.security.SecurityUtil.noopAccessManager(SecurityUtil.kt:20)
+	at io.javalin.http.JavalinServlet.addHandler$lambda-5(JavalinServlet.kt:113)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:44)
+	at io.javalin.http.JavalinServlet$service$tryBeforeAndEndpointHandlers$1.invoke(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service$tryWithExceptionMapper(JavalinServlet.kt:129)
+	at io.javalin.http.JavalinServlet.service$tryBeforeAndEndpointHandlers(JavalinServlet.kt:39)
+	at io.javalin.http.JavalinServlet.service(JavalinServlet.kt:87)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.javalin.jetty.JavalinJettyServlet.service(JavalinJettyServlet.kt:58)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:799)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:550)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1624)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at io.javalin.jetty.JettyServer$start$wsAndHttpHandler$1.doHandle(JettyServer.kt:52)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:501)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1594)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1349)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.StatisticsHandler.handle(StatisticsHandler.java:179)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:516)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:400)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:645)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:392)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:277)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:338)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:315)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:173)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:409)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:883)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:1034)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: org.hibernate.exception.JDBCConnectionException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:112)
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113)
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:67)
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.getResultSet(AbstractLoadPlanBasedLoader.java:390)
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeQueryStatement(AbstractLoadPlanBasedLoader.java:163)
+	at org.hibernate.loader.plan.exec.internal.AbstractLoadPlanBasedLoader.executeLoad(AbstractLoadPlanBasedLoader.java:104)
+	at org.hibernate.loader.entity.plan.AbstractLoadPlanBasedEntityLoader.load(AbstractLoadPlanBasedEntityLoader.java:285)
+	at org.hibernate.persister.entity.AbstractEntityPersister.doLoad(AbstractEntityPersister.java:4521)
+	at org.hibernate.persister.entity.AbstractEntityPersister.load(AbstractEntityPersister.java:4511)
+	at org.hibernate.event.internal.DefaultLoadEventListener.loadFromDatasource(DefaultLoadEventListener.java:571)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doLoad(DefaultLoadEventListener.java:539)
+	at org.hibernate.event.internal.DefaultLoadEventListener.load(DefaultLoadEventListener.java:208)
+	at org.hibernate.event.internal.DefaultLoadEventListener.proxyOrLoad(DefaultLoadEventListener.java:327)
+	at org.hibernate.event.internal.DefaultLoadEventListener.doOnLoad(DefaultLoadEventListener.java:108)
+	at org.hibernate.event.internal.DefaultLoadEventListener.onLoad(DefaultLoadEventListener.java:74)
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:118)
+	at org.hibernate.internal.SessionImpl.fireLoadNoChecks(SessionImpl.java:1226)
+	at org.hibernate.internal.SessionImpl.fireLoad(SessionImpl.java:1215)
+	at org.hibernate.internal.SessionImpl.access$2100(SessionImpl.java:201)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.doLoad(SessionImpl.java:2830)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.lambda$load$1(SessionImpl.java:2807)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.perform(SessionImpl.java:2763)
+	at org.hibernate.internal.SessionImpl$IdentifierLoadAccessImpl.load(SessionImpl.java:2807)
+	at org.hibernate.internal.SessionImpl.find(SessionImpl.java:3395)
+	... 43 more
+Caused by: org.postgresql.util.PSQLException: An I/O error occurred while sending to the backend.
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:349)
+	at org.postgresql.jdbc.PgStatement.executeInternal(PgStatement.java:481)
+	at org.postgresql.jdbc.PgStatement.execute(PgStatement.java:401)
+	at org.postgresql.jdbc.PgPreparedStatement.executeWithFlags(PgPreparedStatement.java:164)
+	at org.postgresql.jdbc.PgPreparedStatement.executeQuery(PgPreparedStatement.java:114)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57)
+	... 64 more
+Caused by: javax.net.ssl.SSLException: Connection reset
+	at java.base/sun.security.ssl.Alert.createSSLException(Alert.java:127)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:369)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:312)
+	at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:307)
+	at java.base/sun.security.ssl.SSLSocketImpl.handleException(SSLSocketImpl.java:1531)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:975)
+	at org.postgresql.core.VisibleBufferedInputStream.readMore(VisibleBufferedInputStream.java:161)
+	at org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:128)
+	at org.postgresql.core.VisibleBufferedInputStream.ensureBytes(VisibleBufferedInputStream.java:113)
+	at org.postgresql.core.VisibleBufferedInputStream.read(VisibleBufferedInputStream.java:73)
+	at org.postgresql.core.PGStream.receiveChar(PGStream.java:443)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:2056)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:322)
+	... 69 more
+	Suppressed: java.net.SocketException: Connection reset by peer: socket write error
+		at java.base/java.net.SocketOutputStream.socketWrite0(Native Method)
+		at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:110)
+		at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+		at java.base/sun.security.ssl.SSLSocketOutputRecord.encodeAlert(SSLSocketOutputRecord.java:83)
+		at java.base/sun.security.ssl.TransportContext.fatal(TransportContext.java:400)
+		... 80 more
+Caused by: java.net.SocketException: Connection reset
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:186)
+	at java.base/java.net.SocketInputStream.read(SocketInputStream.java:140)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1318)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:959)
+	... 76 more
+2021-10-26 18:43:02 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.6.0.Final
+2021-10-26 18:43:03 INFO  Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-10-26 18:43:03 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2021-10-26 18:43:03 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://revature.cqxtfzy5t4m5.us-east-1.rds.amazonaws.com:5432/revature]
+2021-10-26 18:43:03 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2021-10-26 18:43:03 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2021-10-26 18:43:03 INFO  DriverManagerConnectionProviderImpl:274 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2021-10-26 18:43:03 INFO  Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2021-10-26 18:43:04 INFO  access:48 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@33379242] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2021-10-26 18:43:04 INFO  log:170 - Logging initialized @2660ms to org.eclipse.jetty.util.log.Slf4jLog
+2021-10-26 18:43:04 INFO  Javalin:15 - Static file handler added: StaticFileConfig(hostedPath=/, directory=/public, location=CLASSPATH, precompress=false, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=Function1<javax.servlet.http.HttpServletRequest, java.lang.Boolean>). File system location: 'file:///C:/Workspace/project1/target/classes/public/'
+2021-10-26 18:43:04 INFO  Javalin:15 - 
+       __                      __ _            __ __
+      / /____ _ _   __ ____ _ / /(_)____      / // /
+ __  / // __ `/| | / // __ `// // // __ \    / // /_
+/ /_/ // /_/ / | |/ // /_/ // // // / / /   /__  __/
+\____/ \__,_/  |___/ \__,_//_//_//_/ /_/      /_/
+
+          https://javalin.io/documentation
+
+2021-10-26 18:43:04 INFO  Javalin:15 - Starting Javalin ...
+2021-10-26 18:43:04 INFO  Javalin:15 - You are running Javalin 4.1.1 (released October 10, 2021).
+2021-10-26 18:43:05 INFO  Javalin:15 - Listening on http://localhost:7777/
+2021-10-26 18:43:05 INFO  Javalin:15 - Javalin started in 189ms \o/
+2021-10-26 18:43:26 INFO  AppMain:41 - User trying to login with userId: Kersgha
+2021-10-26 18:43:26 DEBUG AppMain:42 -  User trying to login with userId: Kersgha
+2021-10-26 18:43:32 INFO  AppMain:41 - User trying to login with userId: Krishna
+2021-10-26 18:43:32 DEBUG AppMain:42 -  User trying to login with userId: Krishna
+2021-10-26 18:43:32 INFO  AppMain:48 - User trying to login with password: krishna
+2021-10-26 18:43:32 INFO  AppMain:59 - userId: Krishna password: krishna
+2021-10-26 18:43:32 INFO  AppMain:90 - Expenses [Expense [id=12, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:58:16.39], Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:56:40.401], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839], Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424]]
+2021-10-26 18:43:37 INFO  AppMain:72 - description: Relocation Amount: 3421.34
+2021-10-26 18:43:37 INFO  AppMain:90 - Expenses [Expense [id=13, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Pending, timestamp=2021-10-26 18:43:37.379], Expense [id=12, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:58:16.39], Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:56:40.401], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839], Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424]]
+2021-10-26 18:43:43 INFO  AppMain:41 - User trying to login with userId: Siva
+2021-10-26 18:43:43 DEBUG AppMain:42 -  User trying to login with userId: Siva
+2021-10-26 18:43:43 INFO  AppMain:48 - User trying to login with password: siva
+2021-10-26 18:43:43 INFO  AppMain:59 - userId: Siva password: siva
+2021-10-26 18:43:43 INFO  AppMain:103 - Expenses [Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=13, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Pending, timestamp=2021-10-26 18:43:37.379]]find by status Pending
+2021-10-26 18:43:43 INFO  AppMain:103 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839]]find by status Approved
+2021-10-26 18:43:43 INFO  AppMain:103 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Denied, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:56:40.401], Expense [id=12, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:58:16.39]]find by status Denied
+2021-10-26 18:44:15 INFO  AppMain:82 - Update StatusUpdate [status=Denied, ids=[13]]
+2021-10-26 18:44:15 INFO  AppMain:103 - Expenses [Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322]]find by status Pending
+2021-10-26 18:44:15 INFO  AppMain:103 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Denied, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:56:40.401], Expense [id=12, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:58:16.39], Expense [id=13, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 18:43:37.379]]find by status Denied
+2021-10-26 18:44:15 INFO  AppMain:103 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839]]find by status Approved
+2021-10-26 18:44:16 INFO  AppMain:111 - Statistics sumExpenses [Expense [id=0, employeeId=Krishna, amount=14259.54, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Aneek, amount=2810.45, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=268.79, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=200.41000000000003, reason=null, status=null, timestamp=null]]
+2021-10-26 18:44:16 INFO  AppMain:111 - Statistics avgExpenses [Expense [id=0, employeeId=Krishna, amount=2037.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Aneek, amount=1405.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=134.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=100.0, reason=null, status=null, timestamp=null]]
+2021-10-26 18:44:16 INFO  AppMain:111 - Statistics maxExpenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437]]
+2021-10-26 18:47:41 INFO  AppMain:41 - User trying to login with userId: Kersgha
+2021-10-26 18:47:41 DEBUG AppMain:42 -  User trying to login with userId: Kersgha
+2021-10-26 18:47:47 INFO  AppMain:41 - User trying to login with userId: Krishna
+2021-10-26 18:47:47 DEBUG AppMain:42 -  User trying to login with userId: Krishna
+2021-10-26 18:47:47 INFO  AppMain:48 - User trying to login with password: krishna
+2021-10-26 18:47:47 INFO  AppMain:59 - userId: Krishna password: krishna
+2021-10-26 18:47:48 INFO  AppMain:90 - Expenses [Expense [id=13, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 18:43:37.379], Expense [id=12, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:58:16.39], Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:56:40.401], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839], Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424]]
+2021-10-26 18:47:53 INFO  AppMain:72 - description: Relocation Amount: 3421.34
+2021-10-26 18:47:53 INFO  AppMain:90 - Expenses [Expense [id=14, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Pending, timestamp=2021-10-26 18:47:53.384], Expense [id=13, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 18:43:37.379], Expense [id=12, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:58:16.39], Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:56:40.401], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839], Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424]]
+2021-10-26 18:48:00 INFO  AppMain:41 - User trying to login with userId: Siva
+2021-10-26 18:48:00 DEBUG AppMain:42 -  User trying to login with userId: Siva
+2021-10-26 18:48:00 INFO  AppMain:48 - User trying to login with password: siva
+2021-10-26 18:48:00 INFO  AppMain:59 - userId: Siva password: siva
+2021-10-26 18:48:00 INFO  AppMain:103 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839]]find by status Approved
+2021-10-26 18:48:00 INFO  AppMain:103 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Denied, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:56:40.401], Expense [id=12, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:58:16.39], Expense [id=13, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 18:43:37.379]]find by status Denied
+2021-10-26 18:48:00 INFO  AppMain:103 - Expenses [Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322], Expense [id=14, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Pending, timestamp=2021-10-26 18:47:53.384]]find by status Pending
+2021-10-26 18:48:32 INFO  AppMain:82 - Update StatusUpdate [status=Denied, ids=[14]]
+2021-10-26 18:48:32 INFO  AppMain:103 - Expenses [Expense [id=9, employeeId=Krishna, amount=100.0, reason=Air ticket, status=Pending, timestamp=2021-10-26 15:33:14.322]]find by status Pending
+2021-10-26 18:48:32 INFO  AppMain:103 - Expenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=6, employeeId=Sally, amount=34.23, reason=Food, status=Denied, timestamp=2021-10-26 08:14:49.438], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=10, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 15:49:48.456], Expense [id=11, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:56:40.401], Expense [id=12, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 16:58:16.39], Expense [id=13, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 18:43:37.379], Expense [id=14, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 18:47:53.384]]find by status Denied
+2021-10-26 18:48:32 INFO  AppMain:103 - Expenses [Expense [id=1, employeeId=Krishna, amount=20.56, reason=Food, status=Approved, timestamp=2021-10-25 22:58:44.424], Expense [id=3, employeeId=Aneek, amount=342.58, reason=Office party - decoration , status=Approved, timestamp=2021-10-26 08:11:49.531], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437], Expense [id=7, employeeId=Robert, amount=76.87, reason=Train ticket, status=Approved, timestamp=2021-10-26 08:15:35.793], Expense [id=4, employeeId=Krishna, amount=453.62, reason=Office supply - Printer, status=Approved, timestamp=2021-10-26 08:12:52.839]]find by status Approved
+2021-10-26 18:48:33 INFO  AppMain:111 - Statistics sumExpenses [Expense [id=0, employeeId=Krishna, amount=17680.88, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Aneek, amount=2810.45, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=268.79, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=200.41000000000003, reason=null, status=null, timestamp=null]]
+2021-10-26 18:48:33 INFO  AppMain:111 - Statistics avgExpenses [Expense [id=0, employeeId=Krishna, amount=2210.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Aneek, amount=1405.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Sally, amount=134.0, reason=null, status=null, timestamp=null], Expense [id=0, employeeId=Robert, amount=100.0, reason=null, status=null, timestamp=null]]
+2021-10-26 18:48:33 INFO  AppMain:111 - Statistics maxExpenses [Expense [id=2, employeeId=Aneek, amount=2467.87, reason=Relocation, status=Denied, timestamp=2021-10-26 08:11:02.664], Expense [id=13, employeeId=Krishna, amount=3421.34, reason=Relocation, status=Denied, timestamp=2021-10-26 18:43:37.379], Expense [id=8, employeeId=Robert, amount=123.54, reason=Office supply - Table, status=Denied, timestamp=2021-10-26 08:16:31.665], Expense [id=5, employeeId=Sally, amount=234.56, reason=Air ticket, status=Approved, timestamp=2021-10-26 08:14:34.437]]

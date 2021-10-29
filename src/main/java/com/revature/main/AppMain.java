@@ -39,12 +39,13 @@ public class AppMain {
 		app.post("/login", ctx -> {
 			String name = ctx.formParam("userId");
 			logger.info("User trying to login with userId: "+name);
-			logger.debug("XX User trying to login with userId: "+name);
+			logger.debug(" User trying to login with userId: "+name);
 			employee = EmployeeDAO.findById(name);
 			if (Objects.isNull(employee)) {
 				ctx.redirect("error1.html"); // When employee/manager userId wrong
 			} else {
 				String password = ctx.formParam("password");
+				logger.info("User trying to login with password: "+password);
 				if (employee.isPasswordMatch(password)) {
 					if (employee.getRole().equalsIgnoreCase("manager")) {
 						ctx.redirect("manager.html"); // When user is manager
@@ -58,8 +59,6 @@ public class AppMain {
 				logger.info("userId: " + name + " password: " + password);
 			}
 			
-//			ctx.html("ok");
-
 		});
 
 		// Submitting new expense
@@ -80,7 +79,7 @@ public class AppMain {
 			StatusUpdate su = ctx.bodyAsClass(StatusUpdate.class);
 			ExpenseDAO.update(su.getIds(), su.getStatus());
 			ctx.status(200);
-
+			logger.info("Update "+ su.toString());
 		});
 		
 		// Getting List of expenses by employee
@@ -88,6 +87,7 @@ public class AppMain {
 			String employeeId = employee.getName();
 			List<Expense> expenses = ExpenseDAO.findByemployeeId(employeeId);
 			ctx.json(expenses);
+			logger.info("Expenses "+ expenses.toString());
 		});
 			
 		// Getting employee/manager name
@@ -100,6 +100,7 @@ public class AppMain {
 			String status = ctx.queryParam("status");
 			List<Expense> expenses = ExpenseDAO.findExpenseByStatus(status);
 			ctx.json(expenses);
+			logger.info("Expenses "+expenses.toString()+ "find by status "+ status);
 		});	
 		
 		// Retrieving list of expenses for 'statistics page'
@@ -107,6 +108,7 @@ public class AppMain {
 			String stat = ctx.queryParam("stat");
 			List<Expense> expenses = ExpenseDAO.findExpenseByStat(stat);
 			ctx.json(expenses);
+			logger.info("Statistics "+ stat + "Expenses "+ expenses.toString());
 		});	
 		
 	}

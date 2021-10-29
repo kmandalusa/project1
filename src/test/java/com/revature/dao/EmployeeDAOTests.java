@@ -19,13 +19,13 @@ private static	Logger logger = LoggerFactory.getLogger(EmployeeDAOTests.class);
 		Employee employee = new Employee();
 		String id = UUID.randomUUID().toString();
 		employee.setId(id);
-		employee.setName("Micky");
+		employee.setName("Mickya");
 		employee.setPassword("macky");
 		employee.setRole("Manager");
 		EmployeeDAO.create(employee);
 		logger.info(employee.toString());
 		
-		Employee employee2 = EmployeeDAO.findById("Micky");
+		Employee employee2 = EmployeeDAO.findById("Mickya");
 		assertEquals(employee2.getId(), employee.getId());
 		assertEquals(employee2.getName(), employee.getName());
 		assertEquals(employee2.getRole(), employee.getRole());
